@@ -4,7 +4,12 @@
             font-family: 'Courier Prime', monospace;
 
             margin-left:20px;
+            opacity:0;
 
+        }
+        #animationlogo
+        {
+            opacity:0;
         }
         ul
         {
@@ -85,12 +90,21 @@
         .title
         {
 
-            text-align:center;
-            margin:auto;
 
+            margin:auto;
+            opacity:1;
 
 
         }
+        .zoom
+        {
+
+            width:300px;
+             text-align:center;
+             margin:auto;
+             opacity:0;
+        }
+
 
         .jumbotron
       {
@@ -118,6 +132,7 @@
             background-color:white;
             position:relative;
             top:12px;
+            display:none;
         }
         .secondcardpartheading
         {
@@ -200,8 +215,9 @@
 
        padding:5px;
        text-align:center;
+        font-family: 'Poppins', sans-serif;
 
-         font-family: 'Poppins', sans-serif;
+         opacity:0;
 
 
         }
@@ -235,6 +251,7 @@
            margin-top:40px;
            margin-left:10px;
            border-radius:10px;
+           opacity:0;
 
 
 
@@ -249,8 +266,13 @@
 
             box-shadow:1px 1px 5px #CACFD2  ;
             border-radius:7px;
+            opacity:0;
 
 
+        }
+        #nounderline
+        {
+            color:black;
         }
         @media(max-width:1198px)
         {
@@ -265,6 +287,11 @@
             {
                 width:650px;
             }
+             .nounderline
+           {
+                color:black;
+                text-decoration:none;
+           }
         }
         @media(max-width:876px)
         {
@@ -367,6 +394,11 @@
 
 
            }
+           #nounderline
+           {
+               text-decoration:none;
+           }
+
 
         }
 
@@ -416,6 +448,7 @@
             width:351px;
             height:40px;
             background-color:#E74C3C   ;
+            font-family: 'Arimo', sans-serif;
 
         }
         .cards2-image
@@ -462,7 +495,7 @@
             position:relative;
             left:20px;
             top:40px;
-            font-family: 'Arimo', sans-serif;
+             font-family: 'Raleway', sans-serif;
         }
         .tag1
         {
@@ -502,6 +535,11 @@
 
 
 
+         }
+         #linktagstyle
+         {
+            color:black;
+            text-decoration:none;
          }
          .cards2-heading
          {
