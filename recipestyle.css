@@ -142,6 +142,7 @@
         .secondcardparttitle
         {
             font-size:200%;
+            color:grey;
         }
 
       @media(max-width:1000px)
@@ -293,19 +294,7 @@
                 text-decoration:none;
            }
         }
-        @media(max-width:876px)
-        {
-            #searchbuttonstyle
-            {
 
-
-            }
-            #searchstyle
-            {
-
-            }
-
-        }
         @media(max-width:768px)
         {
             .my-col
@@ -407,488 +396,165 @@
 
 
 
-
-
-
-
-
-
-
-
-
-        .cards2-column
+        .cards2-columntwo
         {
 
-            padding:10px;
-
-
-
+            padding:25px;
         }
-        .cards2-row
-        {
 
-        }
-        .cards2
+        .cards2two
         {
-            width:351px;
-            height:390px;
-             box-shadow:4px 4px 28px #CACFD2  ;
+            display:flex;
+            flex-direction:column;
+              box-shadow:4px 4px 28px #CACFD2  ;
              border-radius:3px;
              border:0.5px solid #D5DBDB ;
 
 
-
         }
-        .cards2-container
+        .cards2-within1two
         {
-
-        }
-        .cards2-within1
-        {
-            width:351px;
+            display:flex;
             height:40px;
-            background-color:#E74C3C   ;
-            font-family: 'Arimo', sans-serif;
-
+            background-color:#E74C3C;
+             font-family: 'Arimo', sans-serif;
         }
-        .cards2-image
+        .cards2-headingtwo
         {
-            width:351px;
-            height:155px;
-        }
-        .cards2-within2
-        {
-            font-weight:bold;
 
-            width:240px;
-            font-size:130%;
-            height:57px;
-            position:relative;
-            left:55px;
-            top:10px;
-            font-family: 'Raleway', sans-serif;
-            padding:1px;
-
-
-        }
-          .cards2-within3
-        {
-            font-weight:bold;
-            font-size:90%;
-
-            width:220px;
-            position:relative;
-            left:75px;
-            top:24px;
-            font-family: 'Raleway', sans-serif;
-            padding:1px;
-            opacity:85%;
-
-
-
-        }
-        .tags
-        {
-            width:310px;
-            height:40px;
-
-            position:relative;
-            left:20px;
-            top:40px;
-             font-family: 'Raleway', sans-serif;
-        }
-        .tag1
-        {
-            width:90px;
-            height:35px;
-
-
-             text-align:center;
-             border-radius:15px;
-             border:0.5px solid  #CACFD2;
-
-        }
-        .tag2
-        {
-            width:90px;
-            height:35px;
-
-            position:relative;
-            left:110px;
-            bottom:35px;
-             text-align:center;
-             border-radius:15px;
-             border:0.5px solid  #CACFD2;
-
-         }
-         .tag3
-        {
-            width:90px;
-            height:35px;
-
-            position:relative;
-            left:220px;
-            bottom:70px;
-            text-align:center;
-            border-radius:15px;
-            border:0.5px solid  #CACFD2;
-
-
-
-         }
-         #linktagstyle
-         {
-            color:black;
-            text-decoration:none;
-         }
-         .cards2-heading
-         {
-            width:123.52px;
             height:24px;
-            font-size:130%;
+            font-size:150%;
             position:relative;
             top:2px;
             color:white;
+        }
 
-         }
-
-
-
-
-
-
-
-
-
-
-        @media(max-width:1199px)
+        .card2-imagetwo
         {
-            .cards2
-            {
-                width:291px;
-                margin-left:-1px;
-            }
-            .cards2-within1
-            {
-                width:291px;
-            }
-            .cards2-image
-            {
-                width:291px;
-            }
-            .cards2-within2
-            {
-                margin-left:-23px;
-                font-size:114%;
-                position:relative;
-                top:3px;
+            height:155px;
 
+            display:flex;
+        }
+        .cards2-within2two
+        {
+            display:flex;
 
-            }
-            .cards2-within3
-            {
-                margin-left:-32px;
-                font-size:90%;
-                position:relative;
-                top:11px;
-
-            }
-            .tags
-            {
-                width:250px;
-                position:relative;
-                top:30px;
-            }
-            .tag1
-            {
-                width:70px;
-
-            }
-              .tag2
-            {
-                   width:70px;
-                    margin-left:-20px;
-            }
-              .tag3
-            {
-                width:70px;
-               margin-left:-40px;
-            }
-
+             padding:10px;
+            margin:0px;
+            font-size:130%;
+             font-weight:bold;
+             font-family: 'Raleway', sans-serif;
+             text-align:center;
+        }
+        .cards2-within3two
+        {
+            display:flex;
+            font-weight:bold;
+            text-align:center;
+            padding:1px;
+            font-family: 'Raleway', sans-serif;
+            opacity:85%;
 
         }
-        @media(max-width:992px)
+        .tagstwo
         {
-            .cards2
-            {
-                width:326px;
-                height:387px;
-            }
-            .cards2-within1
-            {
-                width:326px;
-                height:50px;
-            }
-             .cards2-image
-            {
-                width:326px;
-            }
-              .cards2-within2
-            {
-                margin-left:0px;
-                margin-top:10px;
-                font-size:120%;
-                position:relative;
-                top:-9px;
+            display:flex;
+            height:40px;
 
-            }
-            .cards2-within3
-            {
-                margin-left:-20px;
-                 margin-top:0px;
-                font-size:100%;
-                 position:relative;
-                top:-4px;
-                opacity:85%;
-
-            }
-            .tags
-            {
-                width:250px;
-                margin-left:20px;
-                margin-top:0px;
-                position:relative;
-                top:14px
-
-            }
-            .tag1
-            {
-                width:70px;
-
-            }
-              .tag2
-            {
-                   width:70px;
-                    margin-left:-20px;
-            }
-              .tag3
-            {
-                width:70px;
-               margin-left:-40px;
-            }
-            .cards2-heading
-            {
-                width:150px;
-                height:40px;
-                font-size:130%;
-                position:relative;
-                top:9px;
-
-            }
-            .logo2-style
-            {
-                position:relative;
-                top:5px;
-                left:-3px;
-                width:38px;
-                height:33px;
-            }
-
-
+            padding:5px;
+            justify-content:space-between;
+            margin:10px;
 
         }
+        .tagstwo div
+        {
+
+            text-align:center;
+            width:30%;
+              border-radius:15px;
+             border:0.5px solid  #CACFD2;
+             font-family: 'Raleway', sans-serif;
+        }
+        .tagtwo:hover
+        {
+                background-color:red;
+
+        }
+
+        span
+        {
+            vertical-align:middle;
+
+        }
+
         @media(max-width:769px)
         {
-            .cards2
+            .card2-imagetwo
             {
-                width:446px;
-                height:445px;
-                margin-left:25px;
-            }
-
-            .cards2-column
-            {
-                width:450px;
-            }
-            .cards2-within1
-            {
-                width:446px;
-            }
-              .cards2-image
-            {
-                width:446px;
-                height:170px;
-            }
-                .cards2-within2
-            {
-                margin-left:-8px;
-                margin-top:20px;
-                font-size:142%;
-                width:350px;
-            }
-            .cards2-within3
-            {
-
-                margin-left:-35px;
-                 margin-top:-10px;
-                 position:relative;
-                 top:20px;
-                 width:400px;
-                 font-size:120%;
+                height:220px;
 
             }
-            .tags
-            {
-                width:360px;
-                margin-left:20px;
-                margin-top:25px;
 
-            }
-            .tag1
+            .cards2two div
             {
-                width:100px;
-
-            }
-              .tag2
-            {
-                   width:100px;
-                    margin-left:20px;
-            }
-              .tag3
-            {
-                width:100px;
-               margin-left:35px;
-            }
 
 
+            }
+            .cards2-within2two
+            {
+
+                padding:14px;
+
+
+            }
+            .cards2-within3two
+            {
+                padding:15px;
+            }
+             .tagstwo
+            {
+
+                padding:5px;
+                margin:25px;
+
+            }
+            .tagtwo{
+
+            height:35px;
+
+
+
+            }
 
 
         }
-        @media(max-width:575px)
+        @media(max-width:414px)
         {
-            .cards2-column
+            .card2-imagetwo
             {
-               width:570px;
-                margin-left:25px;
-                position:relative;
-                left:-15px;
+                height:155px;
             }
-            .cards2
+              .cards2-within2two
             {
-                position:relative;
-                left:-15px;
-             }
-        }
-        @media(max-width:549px)
-        {
-            .cards2
-            {
-                width:290px;
-                height:433px;
+                padding:10px;
             }
-            .cards2-column
+            .cards2-within3two
             {
-                width:334px;
+                padding:1px;
             }
-            .cards2-within1
+             .tagstwo
             {
-                width:290px;
+                height:43px;
+                padding:5px;
             }
-            .cards2-image
-            {
-                width:290px;
-            }
-            .cards2-within2
-            {
-                width:250px;
-                font-size:120%;
-
-                margin-left:-17px;
-                position:relative;
-                top:-10px;
-            }
-            .cards2-within3
+            .tagstwo
             {
 
-                font-size:100%;
-                width:250px;
-                margin-left:-35px;
-                position:relative;
-                top:15px;
+                margin:10px;
             }
-            .tags
-            {
-
-                position:relative;
-                top:15px;
-                left:-5px;
-                width:250px;
-            }
-            .tag1
-            {
-                width:70px;
-
-
-            }
-             .tag2
-            {
-                width:70px;
-
-                 margin-left:-20px;
-            }
-             .tag3
-            {
-                width:70px;
-
-                 margin-left:-40px;
-            }
-
 
 
         }
-         @media(max-width:414px)
-         {
-            .cards2-column
-            {
-
-               position:relative;
-               left:-17px;
-
-
-            }
-            .cards2-row
-            {
-                width:321px;
-                margin:0 auto;
-                position:relative;
-                left:3px;
-            }
-            .cards2
-            {
-
-
-                position:relative;
-                top:-0px;
-                left:-15px;
-
-
-            }
-            .cards2-column
-            {
-                width:324px;
-                margin:0 auto;
-
-            }
-            .cards2-image
-            {
-                width:290px;
-            }
-            .cards2-within1
-            {
-                width:290px;
-            }
-
-         }
          .loadingdiv{
         width:auto;
         height:80px;
