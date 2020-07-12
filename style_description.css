@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Varela Round',sans-serif;
+}
+
+::after, ::before {
+    box-sizing: border-box;
+}
+.html{
+    /* 1 rem = 10px */
+    font-size: 10px;
+}
+#headdate{
+    font-family: 'Courier Prime', monospace;
+    font-size: 1.3rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #cacaca;
+}
+
+#head1{
+    font-size:200%;
+    /* font-family: 'Courier Prime', monospace; */
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+ }
+
+ div {display:block;}
+
+ .head2{
+    margin: 2rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size:1.3rem;
+    font-weight: bold;
+    margin: 1rem;
+}
+#PICX{
+    height:28rem;
+}
+
+.recipe-detail {
+    padding: 1.2rem 0rem;   
+}
+
+.container {
+    width: 100%;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    /* border: .1rem dotted green; */
+}
+
+.head2{
+    margin: 2rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size:1.3rem;
+    font-weight: bold;
+    margin: 1rem;
+    color: #e13b2b;
+}
+
+.recipe-detail  img{
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.basicinfo{
+     text-align: center;
+   justify-content: center;
+    padding:2px 2px 2px 2px;
+    color: #fff;
+    background-color: #e13b2b;
+}
+ p .prep{
+    margin:6px;}
+.para{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    letter-spacing: .5px;
+    color: rgb(77, 74, 74);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}   
+
+.selfbtn{
+    padding: 6px;
+    margin: 8px;
+    list-style: none;
+    outline:none;
+} 
+ .tag{  
+    display: inline-block;
+    padding: 3px 14px;
+    color: rgb(150, 125, 125);
+    border: 1px solid #e13b2b;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.2;    
+    margin: 4px;
+   }
+
+   .tag:hover{
+   background-color:rgb(253, 253, 253);
+   }
+
+   button:hover{
+		box-shadow: 0px 2px 1.5px 0 #fc924c  inset,  0px 2px 1.5px 0 #fc924c   ;  /*for neon light hover*/
+   } 
+  .h-ingredirtn{
+    font-family: 'Courier Prime', monospace;
+    font-size: 1.3rem;
+    font-weight: 700;
+    padding: 4px;
+    color: #7c7979;
+  }
+  
+ .ingredient   {
+        padding: 30px;
+        list-style: none;
+        background: #f9f9f9;
+    }
+
+ol, ul {
+    margin-top: 0;
+    margin-bottom: 1rem;   
+  }
+ /*  ol .dirctn>li:before{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 32px;
+    position: absolute;
+    top: 3px;
+    left: -34px;
+    width: 34px;
+    height: 34px;
+    text-align: center;
+    color: #999;
+    background-color: #f4f4f4;
+    content: counter(li-counter);
+    counter-increment: li-counter;
+    cursor: default;
+  } */
+li{
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    list-style: none;
+    border-bottom: 1px dashed #dedede;
+}
+.diet h3{
+    font-size: .9rem;
+    position: absolute;
+    top: -20px;
+    left: 0;
+    padding: 8px 10px;
+    color: #fff;
+    background-color: #666;
+}
+
+.diet{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    padding-top: 10px;
+    padding-bottom: 7px;
+    border-top: 1px dashed #dedede;
+    border-bottom: 1px dashed #dedede;
+}
+.diet p{
+        display: block;      
+        margin-block-start: 1em;
+        margin-block-end: 1em;       
+        font-family: 'Varela Round',sans-serif;
+        letter-spacing: .5px;
+        color: #666; 
+}
+
+
+
+@media(max-width:576px)
+{
+    #PICX{
+        height:16rem;
+    }
+
+    .basicinfo{
+        text-align: left;
+      justify-content:left;     
+   }
+
+   .prep{
+     margin:1px;
+     padding-left: 20px;
+    }
+
+    p strong{
+        padding-left: 20px;       
+    }
+    p .prepdes{
+        margin-bottom: 8px;
+    }
+
+    p .para{           
+        margin-bottom: 10px;
+        padding-left: 20px;
+    }  
+
+    .diet p{
+        margin: 8px;
+    }
+
+}
